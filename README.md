@@ -24,7 +24,7 @@ npx prisma generate
 Create a .env file in the root of the project and add the following variables:
 
 ```bash
-DATABASE_URL="mongodb+srv://dima123:dima123@cluster0.ylxv1ih.mongodb.net/auth?retryWrites=true&w=majority&appName=Cluster0"
+DATABASE_URL="mongodb://localhost:27017"
 URL="http://localhost:3000"
 AUTH_SECRET=secret
 NEXTAUTH_URL=http://localhost:3000
